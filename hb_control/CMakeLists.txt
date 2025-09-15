@@ -29,9 +29,8 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  PROGRAMS src/task1a_boilerplate.py
-  PROGRAMS src/task1b_boilerplate.py
-  PROGRAMS src/task1c_boilerplate.py
+  PROGRAMS src/holonomic_perception.py
+  PROGRAMS src/holonomic_controller.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
