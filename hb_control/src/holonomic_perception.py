@@ -25,8 +25,6 @@ class PoseDetector(Node):
         self.bridge = CvBridge()
         
         # ---------- PARAMETERS ----------
-        self.image_topic = ''  # Set your camera image topic
-        self.poses_topic = ''  # Set your poses topic
         self.crates_marker_length = 0.05  # Set marker size in meters
         self.bots_marker_length = 0.05    # Set bot marker size in meters
         self.aruco_dict_name = 'DICT_4X4_50'  # Choose ArUco dictionary

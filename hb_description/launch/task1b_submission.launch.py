@@ -22,7 +22,7 @@ def generate_launch_description():
     gui_config = os.path.join(
         get_package_share_directory('hb_description'),
         'config',
-        'task1b_gui.config'
+        'gui.config'
     )
 
     set_env_vars_resources = AppendEnvironmentVariable(
@@ -89,7 +89,7 @@ def generate_launch_description():
     cmd=[
         'ros2', 'bag', 'record', '-o', 'task_1b',
         '/autoeval_data',
-        '/box_pose',
+        '/crate_pose',
         '/bot_pose'
     ],
     output='screen'
