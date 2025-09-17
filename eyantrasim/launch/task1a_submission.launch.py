@@ -27,9 +27,9 @@ def generate_launch_description():
     rosbag = launch.actions.ExecuteProcess(
         cmd=[
             'ros2', 'bag', 'record', '-o', 'task_1a',
-            '/eyantrasim/crystal/cmd_vel',
-            '/eyantrasim/frostbite/cmd_vel',
-            '/eyantrasim/glacio/cmd_vel'
+            '/eyantrasim/crystal/pose',
+            '/eyantrasim/frostbite/pose',
+            '/eyantrasim/glacio/pose'
         ],
         output='screen'
     )
