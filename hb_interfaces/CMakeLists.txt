@@ -18,6 +18,8 @@ find_package(rosidl_default_generators REQUIRED)
 set(msg_files
   msg/Pose2D.msg
   msg/Poses2D.msg
+  msg/BotCmd.msg
+  msg/BotCmdArray.msg
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

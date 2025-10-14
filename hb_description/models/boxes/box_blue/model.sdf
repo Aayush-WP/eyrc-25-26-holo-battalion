@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<sdf version='1.8'>
-  <model name='box_blue'>
+<sdf version="1.8">
+  <model name="box_blue">
     <static>0</static>
     <link name="link">
-      <collision name="collision">
+      <inertial><mass>0.01</mass><pose>0 0 0 0 0 0</pose><inertia><ixx>6.0e-06</ixx><ixy>0</ixy><ixz>0</ixz><iyy>6.0e-06</iyy><iyz>0</iyz><izz>6.0e-06</izz></inertia></inertial><collision name="collision">
         <geometry>
           <box>
             <size>0.05 0.05 0.05</size>
@@ -21,4 +21,3 @@
     </link>
   </model>
 </sdf>
-

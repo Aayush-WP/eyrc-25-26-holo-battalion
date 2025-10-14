@@ -37,10 +37,20 @@ install(PROGRAMS launch/box_placer_1b
   DESTINATION lib/${PROJECT_NAME}
 )
 
-install(PROGRAMS launch/autoeval_1b
+install(PROGRAMS launch/box_placer_2a
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(PROGRAMS launch/box_placer_2b
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(PROGRAMS launch/autoeval_1b
+  DESTINATION lib/${PROJECT_NAME}
+)
+install(PROGRAMS launch/hb_bridge
+  DESTINATION lib/${PROJECT_NAME}
+)
 install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
