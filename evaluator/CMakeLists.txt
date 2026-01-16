@@ -27,6 +27,8 @@ install(
   DIRECTORY
     task4a
     task4b
+    task5a
+    task5b
     launch
   DESTINATION
     share/${PROJECT_NAME}/
