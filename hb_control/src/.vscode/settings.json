@@ -1,0 +1,23 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/monarc_inc/eyantra/hb_ws/install/hb_interfaces/local/lib/python3.10/dist-packages",
+        "/home/monarc_inc/eyantra/hb_ws/install/eyantrasim_msgs/local/lib/python3.10/dist-packages",
+        "/home/monarc_inc/ros2_ws/build/my_robot_controller",
+        "/home/monarc_inc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/monarc_inc/ros2_ws/src/build/my_robot_controller",
+        "/home/monarc_inc/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/monarc_inc/eyantra/hb_ws/install/hb_interfaces/local/lib/python3.10/dist-packages",
+        "/home/monarc_inc/eyantra/hb_ws/install/eyantrasim_msgs/local/lib/python3.10/dist-packages",
+        "/home/monarc_inc/ros2_ws/build/my_robot_controller",
+        "/home/monarc_inc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/monarc_inc/ros2_ws/src/build/my_robot_controller",
+        "/home/monarc_inc/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ROS2.distro": "humble"
+}

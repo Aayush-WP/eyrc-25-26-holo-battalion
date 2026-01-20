@@ -1,0 +1,5 @@
+int32 bot_id
+bool attach
+---
+bool success
+string message
